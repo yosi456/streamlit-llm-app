@@ -45,7 +45,7 @@ def get_llm_response(user_input: str, expert_type: str) -> str:
 # Streamlit UI部分
 # --------------------------------------------------------------------------------
 st.set_page_config(page_title="専門家AI相談室", layout="wide")
-st.title("👨‍🏫 専門家AI相談室")
+st.title("👨‍🏫 専門家AI相談室!")
 st.markdown("""
 このアプリケーションは、あなたの質問や相談に対して、指定した分野の専門家としてAIが回答を生成するWebアプリです。
 
